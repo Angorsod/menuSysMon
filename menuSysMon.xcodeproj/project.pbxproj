@@ -13,6 +13,8 @@
 		AF212B5A2471F33B0075B374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF212B582471F33B0075B374 /* Main.storyboard */; };
 		AF212B662471F33B0075B374 /* menuSysMonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF212B652471F33B0075B374 /* menuSysMonTests.swift */; };
 		AF212B712471F33B0075B374 /* menuSysMonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF212B702471F33B0075B374 /* menuSysMonUITests.swift */; };
+		AFFAD4B724733FEC00BAC7EF /* SysMonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAD4B624733FEC00BAC7EF /* SysMonViewController.swift */; };
+		AFFAD4B924734F7500BAC7EF /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAD4B824734F7500BAC7EF /* EventMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		AF212B6C2471F33B0075B374 /* menuSysMonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = menuSysMonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF212B702471F33B0075B374 /* menuSysMonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuSysMonUITests.swift; sourceTree = "<group>"; };
 		AF212B722471F33B0075B374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFAD4B624733FEC00BAC7EF /* SysMonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysMonViewController.swift; sourceTree = "<group>"; };
+		AFFAD4B824734F7500BAC7EF /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				AF212B522471F33A0075B374 /* AppDelegate.swift */,
+				AFFAD4B624733FEC00BAC7EF /* SysMonViewController.swift */,
+				AFFAD4B824734F7500BAC7EF /* EventMonitor.swift */,
 				AF212B542471F33A0075B374 /* ViewController.swift */,
 				AF212B562471F33B0075B374 /* Assets.xcassets */,
 				AF212B582471F33B0075B374 /* Main.storyboard */,
@@ -255,7 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF212B552471F33A0075B374 /* ViewController.swift in Sources */,
+				AFFAD4B724733FEC00BAC7EF /* SysMonViewController.swift in Sources */,
 				AF212B532471F33A0075B374 /* AppDelegate.swift in Sources */,
+				AFFAD4B924734F7500BAC7EF /* EventMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
